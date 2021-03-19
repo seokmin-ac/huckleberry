@@ -10,3 +10,42 @@ body {
 }
 
 /* Add styles here! */
+/* Fill viewport */
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+header {
+  height: 40%;
+  margin: 0;
+}
+main {
+  min-height: 60%;
+}
+/* Prevent margin collapsing */
+h1, h2 {
+  margin: 0;
+}
+
+.max-width-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header p {
+  max-width: 300px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%)
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+.card {
+  background-color: white;
+}
